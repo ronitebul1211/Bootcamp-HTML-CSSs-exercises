@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex 5.2</title>
+</head>
+
+<!-- 
+    # for + name linked label & input 
+    # id is key name for input value
+-->
+<body>
+        <div id="email">
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <br>
+
+        <div id="password">
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password">
+        </div>
+
+        <br>
+
+        <div id="age">
+            <label for="age">Age:</label><br>
+            <select id="age" name="age">
+                <option value="select">Select Age</option>
+                <option value="0-9">0-9</option>
+                <option value="10-19">10-19</option>
+                <option value="20-29">20-29</option>
+                <option value="30-39">30-39</option>
+                <option value="40-49">40-49</option>
+                <option value="50+">50+</option>
+              </select>
+        </div>
+
+        <br>
+
+        <div id="personal_info">
+            <label for="personal_info">Tell us a little about yourself:</label><br>
+            <textarea name="personal_info" id="personal_info" cols="60" rows="5"></textarea>
+        </div>
+
+        <br>
+
+        <div id="term_of_service">
+            <input type="checkbox" name="term _of_service"> I agree to the
+            <a href="#" target="_blank" style="color: royalblue; text-decoration: underline;">terms of service</a>
+        </div>
+
+        <br>
+
+        <div id="sign_up_button">
+            <button type="button">Sign Up</button>
+        </div>
+       
+
+
+    
+    
+</body>
+</html>
